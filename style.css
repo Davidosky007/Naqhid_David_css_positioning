@@ -113,6 +113,7 @@ figure figcaption {
 .container{
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .main-section {
@@ -151,3 +152,34 @@ figure figcaption {
 }
 
 /* Article Section */
+
+ .p-1-social p{
+  margin:  0;
+}
+
+.p-1{
+  flex-direction: row;
+}
+
+  .author-info{
+    display: flex;
+   
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+    margin-left: 350px;
+  }
+
+.p-1 .p-1-social{
+  margin: 15px 0 25px 0;
+  justify-content: space-between;
+  margin-left: 350px;
+}
+
+.article-social-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
