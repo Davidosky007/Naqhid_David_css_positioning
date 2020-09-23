@@ -18,36 +18,37 @@
   box-sizing: border-box;
 }
 
-
-
-/* html {
-  font-size: 62.5%;
-} */
-
 /* NavBar Section */
+
 .main_nav_bar {
   display: flex;
-  justify-content: space-between;
   padding: 10px;
   border-bottom: 1px solid #ccc;
   height: 40px;
-  margin: 10px;
-  max-width: 1320px;
-  margin: 0 ;
-  display: flex;
-  align-items: left;
+  margin: 0;
   justify-content: space-between;
-    background-color: white;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .navbar_left {
-  margin: 0 auto;
   padding: 0;
-  float: left;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  margin: -8px;
 }
 
+.navbar_left a {
+  padding: 10px;
+  color: #000;
+  margin-right: 10px;
+  font-weight: 800;
+ font-family: 'Roboto', sans-serif;
+ font-size: 14px;
 }
 
 .navbar_left i {
@@ -58,8 +59,20 @@
   justify-content: space-between;
 }
 
+.navbar_left .fa-search{
+  margin: 0 auto;
+  padding-left: 0px;
+  font-size: 15px;
+}
+
+.navbar_left .fa-bars{
+  font: 15px;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
 .navbar_right a {
-  background-color:rgb(86, 123, 149);
+  background-color: rgb(86, 123, 149);
   color: white;
   padding: 7px 12px;
   border: none;
@@ -67,6 +80,8 @@
   font-size: 12px;
   font-weight: bold;
 }
+
+/* Main Section */
 
 .flex-column {
   flex-direction: column;
@@ -95,8 +110,10 @@ figure figcaption {
   margin-right: 270px;
 }
 
-
-
+.container{
+  display: flex;
+  justify-content: center;
+}
 
 .main-section {
   margin-top: 100px;
@@ -105,11 +122,15 @@ figure figcaption {
 
 .main-section h1 {
   font-size: 40px;
-  width: 500px;
+  max-width: 600px;
   font-weight: 700;
   font-style: italic;
   margin-bottom: 20px;
-  align-items: center;
+}
+
+.main-section-header-1{
+  display: flex;
+  justify-content: center;
 }
 
 .main-section figure {
@@ -117,6 +138,9 @@ figure figcaption {
   margin-bottom: 40px;
 }
 
+  .main-fig-1{
+    font-size: 13px;
+  }
 
 
 
@@ -126,8 +150,4 @@ figure figcaption {
   margin-bottom: 10px;
 }
 
-
-
-
-
-
+/* Article Section */
