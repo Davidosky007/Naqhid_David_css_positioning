@@ -12,7 +12,7 @@ Simple Web Page Clone Using HTML & CSS
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://davidosky007.github.io/Naqhid_David_css_positioning/)
 
 ## Getting Started
 

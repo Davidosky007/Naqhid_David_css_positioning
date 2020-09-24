@@ -47,8 +47,8 @@
   color: #000;
   margin-right: 10px;
   font-weight: 800;
- font-family: 'Roboto', sans-serif;
- font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 .navbar_left i {
@@ -59,13 +59,13 @@
   justify-content: space-between;
 }
 
-.navbar_left .fa-search{
+.navbar_left .fa-search {
   margin: 0 auto;
   padding-left: 0px;
   font-size: 15px;
 }
 
-.navbar_left .fa-bars{
+.navbar_left .fa-bars {
   font: 15px;
   padding-left: 10px;
   margin-left: 10px;
@@ -110,7 +110,7 @@ figure figcaption {
   margin-right: 270px;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -129,7 +129,7 @@ figure figcaption {
   margin-bottom: 20px;
 }
 
-.main-section-header-1{
+.main-section-header-1 {
   display: flex;
   justify-content: center;
 }
@@ -139,9 +139,9 @@ figure figcaption {
   margin-bottom: 40px;
 }
 
-  .main-fig-1{
-    font-size: 13px;
-  }
+.main-fig-1 {
+  font-size: 13px;
+}
 
 
 
@@ -153,32 +153,47 @@ figure figcaption {
 
 /* Article Section */
 
- .p-1-social p{
-  margin:  0;
+.main_article {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 20px;
+  color: #333;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
-.p-1{
+.p-1-social p {
+  margin: 0;
+}
+
+.p-1 {
   flex-direction: row;
 }
 
-  .author-info{
-    display: flex;
-   
-    color: #333;
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 10px;
-   
-    margin-left: 350px;
-  }
+p a {
+  color: #326891;
+  text-decoration: underline;
+}
 
-.p-1 .p-1-social{
+.author-info {
+  display: flex;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.author-info-link {
+  color: #333;
+}
+
+.p-1 .p-1-social {
   margin: 15px 0 25px 0;
   justify-content: space-between;
   margin-left: 350px;
 }
 
-.article-social-icons{
+.article-social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -190,4 +205,25 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+
+.subscribe-text {
+  text-align: center;
+  line-height: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.line-1 {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0 auto;
+}
+
+.line-2 {
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0 auto;
+  padding-top: 15px;
 }
