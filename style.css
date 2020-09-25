@@ -235,6 +235,16 @@
     width: 200px;
   }
 
+  .editor_pick hr{
+    width: 200px;
+    color: #888;
+  }
+
+.editor-main-text{
+  padding-bottom: 10px;
+
+}
+
   .editor-d-1{
     display: flex;
     justify-content: space-between;
@@ -246,9 +256,15 @@
   }
 
   .editor-d-1 img{
-    width: 75px;
+    width: 100px;
     height: 75px;
   }
+.editor-a-1{
+  color: #888;
+  text-align: center;
+  padding: 10px;
+}
+
   /* Thumbnail Section */
 
   .article-thumbnail {
@@ -478,11 +494,30 @@
     float: right;
   }
 
+  .most-popular a{
+    display: block;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 13px;
+    border-top: 1px solid #ccc;
+    padding-top: 13px;
+    line-height: 24px;
+    color: #888;
+    transition: all 0.3s black;
+  }
+
+  .a-1{
+    color: #888;
+  }
   .space-section,
   .editor-picks {
     display: grid;
     grid-template-columns: 270px 270px 270px;
     gap: 17px;
+  }
+
+  .editor-text-1{
+    padding-top: 10px;
   }
 
   .fourth-grid article {
@@ -541,17 +576,12 @@
   .final-img{
     display: flex;
     justify-content: space-between;
-
-
   }
 
   .final-img img{
     float: left;
     width: 15%;
-
   }
-  
-
   
   .final-start div {
     border-top: 1px #e2e2e2 solid;
@@ -570,6 +600,11 @@
     margin: 20px 0;
     border-bottom: 1px solid #e2e2e2;
     padding-bottom: 10px;
+    display: flex;
+  }
+
+  .final-mid a{
+    color: black;
   }
   
   .final-mid > div {
@@ -609,9 +644,21 @@
   
   .final-end-list li{
     padding: 2px 9px;
-  
+  }
+  .mid-footer li{
+    line-height: 25px;
+  }
+
+  .mid-footer li a{
+    font-size: 14px;
 
   }
+  
+  .mid-footer .h-li{
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+  }
+
   .final .final-end ul a {
     text-decoration: none;
     color: #666;
