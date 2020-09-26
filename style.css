@@ -102,6 +102,7 @@
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     max-width: 1200px;
+    margin: 20px 0;
   }
 
   figure figcaption {
@@ -160,10 +161,6 @@
     letter-spacing: 1px;
   }
 
-  .p-1-social p {
-    margin: 0;
-  }
-
   .p-1 {
     flex-direction: row;
   }
@@ -182,12 +179,6 @@
 
   .author-info-link {
     color: #333;
-  }
-
-  .p-1 .p-1-social {
-    margin: 15px 0 25px 0;
-    justify-content: space-between;
-    margin-left: 350px;
   }
 
   .article-social-icons {
@@ -259,8 +250,9 @@
     width: 100px;
     height: 75px;
   }
+
 .editor-a-1{
-  color: #888;
+  color:#888;
   text-align: center;
   padding: 10px;
 }
@@ -404,10 +396,6 @@
     letter-spacing: 1px;
   }
 
-  figure {
-    margin: 20px 0;
-  }
-
   figure img {
     width: 100%;
   }
@@ -503,7 +491,6 @@
     padding-top: 13px;
     line-height: 24px;
     color: #888;
-    transition: all 0.3s black;
   }
 
   .a-1{
@@ -520,12 +507,12 @@
     padding-top: 10px;
   }
 
-  .fourth-grid article {
+  .fourth-grid article{
     display: flex;
     flex-direction: column;
   }
 
-  .fourth-grid figure figcaption {
+  .fourth-grid figure figcaption{
     width: 100%;
     text-align: end;
     color: #999;
@@ -583,7 +570,7 @@
     width: 15%;
   }
   
-  .final-start div {
+  .final-start div{
     border-top: 1px #e2e2e2 solid;
     justify-content: space-between;
     margin-top: 3px;
@@ -616,7 +603,7 @@
     font-size: 16px;
   }
   
-  .final-mid .li-bold svg {
+  .final-mid .li-bold svg{
     width: 13px;
     height: 13px;
     margin-right: 5px;
@@ -626,7 +613,15 @@
     border-left: 1px solid #e2e2e2;
     padding-left: 15px;
   }
+
+  .final-end-list li{
+    padding: 2px 9px;
+  }
   
+  .mid-footer li{
+    line-height: 25px;
+  }
+
   .final .final-mid div:last-child ul li:nth-child(7) {
     border-bottom: 1px solid #e2e2e2;
   }
@@ -642,13 +637,6 @@
     text-align: center;
   }
   
-  .final-end-list li{
-    padding: 2px 9px;
-  }
-  .mid-footer li{
-    line-height: 25px;
-  }
-
   .mid-footer li a{
     font-size: 14px;
 
@@ -682,18 +670,18 @@
     background-color: white;
   }
 
-  .fixed-bottom__right {
+  .fixed-bottom-right {
     float: right;
     margin-bottom: 50px;
 }
 
-.fixed-bottom__right a {
+.fixed-bottom-right a {
   color: #111;
   margin-left: 20px;
   font-size: 15px;
 }
 
-.fixed-bottom__right p {
+.fixed-bottom-right p {
   font-weight: bold;
   font-size: 12px;
 }
