@@ -7,7 +7,7 @@ Simple Web Page Clone Using HTML & CSS
 - HTML
 - CSS 3
 
- <img src="./assets/img/screenshot.jpg" width="800" height="500"> 
+ <img src="./assets/img/screenshot.jpg"> 
 
 
 ## Live Demo
