@@ -139,6 +139,7 @@ figure figcaption {
 .main-section-header-1 {
   display: flex;
   justify-content: center;
+  font-size: 40px;
 }
 
 .main-section figure {
@@ -160,8 +161,8 @@ figure img {
 }
 
 .editor-d-1 img {
-  width: 100px;
-  height: 75px;
+  width: 110px;
+  height: 120px;
   padding: 10px;
   margin: 10px;
 }
