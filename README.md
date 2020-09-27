@@ -7,7 +7,7 @@ Simple Web Page Clone Using HTML & CSS
 - HTML
 - CSS 3
 
- <!-- <img src="./img/page_img.jpg" width="800" height="500"> -->
+ <img src="./assets/img/project-screenshoot.jpg" width="800" height="500"> 
 
 
 ## Live Demo
@@ -36,7 +36,7 @@ To get local copy up and running just clone the Repository.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Davidosky007/Naqhid_David_css_positioning/issues).
 
 ## Show your support
 

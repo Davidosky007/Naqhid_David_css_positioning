@@ -154,9 +154,16 @@ figure img {
   width: 100%;
 }
 
+.editor-article-1{
+  display: flex;
+  justify-content: space-between;
+}
+
 .editor-d-1 img {
   width: 100px;
   height: 75px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .img-thumbnail-1 img {
@@ -511,6 +518,7 @@ h5 span {
 
 .editor-text-1 {
   padding-top: 10px;
+  font-size: small;
 }
 
 .fourth-grid article {
